@@ -32,6 +32,11 @@ Retrive the java model class as object
 User user=PreferenceHelper.getInstance().getObject("user",User.class);
 ```
 
+Remove key
+```sh
+PreferenceHelper.getInstance().remove("email");
+```
+
 Remove all keys
 ```sh
 PreferenceHelper.getInstance().removeAll();
