@@ -80,10 +80,10 @@ public class PreferenceHelper {
     }
 
     /**
-     * Delete the key from @{@link SharedPreferences}
+     * Remove the key from @{@link SharedPreferences}
      * @param key key to be removed
      */
-    public void delete(String key) {
+    public void remove(String key) {
         if (sharedPreferences.contains(key)) {
             editor.remove(key).commit();
         }
