@@ -1,4 +1,3 @@
-package com.aml.sessionmanager.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
