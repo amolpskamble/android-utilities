@@ -13,7 +13,7 @@ Retrive the key/value pair
 PreferenceHelper.getInstance().getPref("email");
 ```
 
-Save the java model class as object
+Save the java model class as an object
 ```sh
 public class User {
     String name;
@@ -27,17 +27,17 @@ public class User {
 PreferenceHelper.getInstance().storeObject("user",user);
 ```
 
-Retrive the java model class as object
+Retrive the java model class as an object
 ```sh
 User user=PreferenceHelper.getInstance().getObject("user",User.class);
 ```
 
-Remove key
+Remove the key
 ```sh
 PreferenceHelper.getInstance().remove("email");
 ```
 
-Remove all keys
+Remove the all keys
 ```sh
 PreferenceHelper.getInstance().removeAll();
 ```
