@@ -1,6 +1,6 @@
 # How to use?
 
-Initialise the utility before use as follows
+Initialise the utility before using as follows
 ```sh
 PreferenceHelper.init(getApplicationContext());
 ```
@@ -8,12 +8,12 @@ Save the key/value pair
 ```sh
 PreferenceHelper.getInstance().savePref("email","amol.p.s.kamble@gmail.com");
 ```
-Save the key/value pair
+Retrive the key/value pair
 ```sh
 PreferenceHelper.getInstance().getPref("email");
 ```
 
-Save java model class as object
+Save the java model class as object
 ```sh
 public class User {
     String name;
@@ -27,7 +27,7 @@ public class User {
 PreferenceHelper.getInstance().storeObject("user",user);
 ```
 
-Get java model class as object
+Retrive the java model class as object
 ```sh
 User user=PreferenceHelper.getInstance().getObject("user",User.class);
 ```
