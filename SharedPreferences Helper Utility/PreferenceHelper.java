@@ -95,7 +95,7 @@ public class PreferenceHelper {
      * @param value value to be stored
      */
     public void savePref(String key, Object value) {
-        delete(key);
+        remove(key);
 
         if (value instanceof Boolean) {
             editor.putBoolean(key, (Boolean) value);
