@@ -37,7 +37,7 @@ Remove the key
 PreferenceHelper.getInstance().remove("email");
 ```
 
-Remove the all keys
+Remove all the keys
 ```sh
 PreferenceHelper.getInstance().removeAll();
 ```
